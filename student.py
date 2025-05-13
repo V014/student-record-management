@@ -186,7 +186,7 @@ class std():
                 tk.messagebox.showerror("Error", f"Error: {e}")
 
     def dbFun(self):
-        self.con = pymysql.connect(host="localhost", user="root", passwd="admin", database="rec")
+        self.con = pymysql.connect(host="localhost", user="root", passwd="", database="student_reg_mgmt")
         self.cur = self.con.cursor()
 
     def updFrameFun(self):
